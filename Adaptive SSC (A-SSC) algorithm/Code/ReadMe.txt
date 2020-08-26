@@ -1,28 +1,18 @@
 !*************************************************************************
 
-!*     Robust piecewise linear L1-regression via nonsmooth optimization  *
-!*     in data sets with outliers
-!*                                                                       *
-!*     written by Napsu Karmitsa                                         *
+!*     Nonsmooth Optimization Based Model and Algorithm for              *
+!*     Semi-supervised Clustering                                        *
+                                                                      
+!*     written by Adil Bagirov                                           *
 
-!*                                                                       *
+
 
 !*     The software is free for academic teaching and research           *
-
 !*     purposes but we ask you to refer the appropriate references       *
-
 !*     given below, if you use it.                                       *
 
 
 !*************************************************************************
-!*     Codes included:  
-!*
-!*
-!*     Main.py            - Main program for A-PWLR.
-!*     user_init.py       - Initialization of parameters for A-PWLR and AggSub.
-!*     config.py          - Global parameters and constants.
-!*     functions.py       - Computation of DC components f_1 and f_2 and their subgradients for the PWLR-L1 problem.
-!*     aggsub-py          - Aggregate subgradient method.
 
 
 
@@ -30,16 +20,16 @@
 
 !*     References:
 
-!*     A. Bagirov, S. Taheri, N. Karmitsa, N. Sultanova, and S. Asadi, 
+!*     A. Bagirov, S. Taheri,  F. Bai and F. Zheng, 
+!*     "Nonsmooth Optimization Based Model and Algorithm for Semi-supervised Clustering", submitted, 2020. 
 
-!*     "Robust piecewise linear L1-regression via nonsmooth optimization in data sets with outliers", submitted, 2020. 
 
-!*
 
 !*    Acknowledgements: 
-
 !*    This research work by: 
 
-!*    Prof. Adil Bagirov and Dr. Sona Taheri was supported by the Australian Government through the Australian Research 
-!*    Council's Discovery Projects funding scheme (Project No. DP190100580); and  
-!*    Dr. Napsu Karmitsa was supported by by the Academy of Finland (Project No. 289500, 319274). 
+!*    Adil Bagirov and Sona Taheri was supported by the Australian Government through the Australian Research Council's 
+!*    Discovery Projects funding scheme (Project No. DP190100580); and  
+!*    Fusheng Bai was supported by the National Natural Science Foundation of China (Project No.  11871128 and 11991024),
+!*    and the Chongqing Natural Science Foundation, China (Project No. cstc2019jcyj-msxmX0368 and cstc2018jcyjAX0172); and
+!*    Fangying Zheng was supported by the Natural Science Foundation of Zhejiang Province, China (Project No. LY19A010025).
