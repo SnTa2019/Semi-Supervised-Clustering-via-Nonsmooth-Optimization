@@ -8,8 +8,16 @@ The A-SSC algorithm has a high performance in identifying compact and well-separ
 	
 
 	
-
-	
+Fortran code of the A-SSC algorithm is provided.
+ML and CL constraints are also provided: 
+To generate ML and CL pairs for each data set, we randomly select two instances from the data set and check their class labels. 
+If the labels are the same, then we consider these instances as a ML pair. Otherwise, they are chosen as a CL pair. 
+The procedure is repeated mpairs times for each data set (with the number of observation m), where mpairs is defined as:
+mpairs =
+--- 0.2m,                    m ≤ 1000,
+--- max{200,0.1m},   1000  < m ≤ 4000,
+--- max{400,0.05m},  4000  < m ≤ 12000,
+--- max{600,0.02m},  12000 < m ≤ 20000.	
 
 	
 
