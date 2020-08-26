@@ -13,7 +13,7 @@
 
 
 !*************************************************************************
-
+!*     Code includes an incremental approach and discrete gradient method.
 
 
 
